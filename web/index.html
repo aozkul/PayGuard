@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AzubiPilot Web</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar">
+        <div class="brand-block">
+          <p class="eyebrow">Ausbildung Hazirlik Platformu</p>
+          <h1>AzubiPilot Web</h1>
+          <p class="brand-copy">
+            Türkiye'den Almanya'ya Ausbildung planlama, basvuru ve belge takibi.
+          </p>
+        </div>
+
+        <nav class="nav-list" aria-label="Ana gezinme">
+          <button class="nav-link is-active" data-section="overview">Genel Bakis</button>
+          <button class="nav-link" data-section="plan">Plan</button>
+          <button class="nav-link" data-section="occupations">Meslekler</button>
+          <button class="nav-link" data-section="applications">Basvurular</button>
+          <button class="nav-link" data-section="documents">Belgeler</button>
+          <button class="nav-link" data-section="toolkit">Basvuru Araclari</button>
+          <button class="nav-link" data-section="family">Aile Raporu</button>
+          <button class="nav-link" data-section="finance">Finans ve Risk</button>
+        </nav>
+
+        <div class="sidebar-note">
+          <p class="note-label">Uyari</p>
+          <p>
+            Bu urun resmi vize danismanligi vermez. Kritik bilgiler icin resmi kaynaklar
+            kontrol edilmelidir.
+          </p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Web MVP</p>
+            <h2>Kisisel Ausbildung Hazirlik Paneli</h2>
+          </div>
+          <div class="topbar-actions">
+            <span class="pill" id="sync-indicator">Local-first</span>
+            <span class="pill pill-strong" id="hero-score">Hazirlik 0%</span>
+          </div>
+        </header>
+
+        <section id="overview" class="panel-section is-visible">
+          <div class="hero-card">
+            <div>
+              <p class="eyebrow">Kisiye ozel analiz</p>
+              <h3>Profilini gir, sana uygun Ausbildung yolunu cikaralim.</h3>
+              <p class="hero-copy">
+                Bu web surumu; onboarding, readiness score, meslek eslestirme,
+                basvuru takibi, belge kasasi, aile raporu ve risk kontrolunu tek
+                panelde birlestirir.
+              </p>
+            </div>
+            <div class="hero-highlight" id="hero-highlight"></div>
+          </div>
+
+          <div class="metrics-grid" id="metrics-grid"></div>
+
+          <div class="two-column">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Onboarding</p>
+                  <h3>Profil Bilgileri</h3>
+                </div>
+              </div>
+              <form id="profile-form" class="form-grid"></form>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Kritik Eksikler</p>
+                  <h3>Bir sonraki en iyi adim</h3>
+                </div>
+              </div>
+              <div id="priority-actions" class="stack-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="plan" class="panel-section">
+          <div class="two-column wide-left">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Readiness Score</p>
+                  <h3>Hazirlik dagilimi</h3>
+                </div>
+              </div>
+              <div id="score-breakdown" class="score-breakdown"></div>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">6 Aylik Yol Haritasi</p>
+                  <h3>Siradaki gorevler</h3>
+                </div>
+              </div>
+              <div id="roadmap-list" class="timeline"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="occupations" class="panel-section">
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Meslek Oneri Motoru</p>
+                <h3>Skorlanmis meslekler</h3>
+              </div>
+              <div class="header-meta" id="occupation-summary"></div>
+            </div>
+            <div id="occupation-cards" class="occupation-grid"></div>
+          </article>
+        </section>
+
+        <section id="applications" class="panel-section">
+          <div class="two-column wide-left">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Yeni Basvuru</p>
+                  <h3>Pipeline'a firma ekle</h3>
+                </div>
+              </div>
+              <form id="application-form" class="form-grid compact-form"></form>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Durumlar</p>
+                  <h3>Basvuru panosu</h3>
+                </div>
+              </div>
+              <div id="applications-board" class="applications-board"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="documents" class="panel-section">
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Belge Kasasi</p>
+                <h3>Checklist ve hazirlik durumu</h3>
+              </div>
+              <div class="header-meta" id="documents-summary"></div>
+            </div>
+            <div id="documents-grid" class="documents-grid"></div>
+          </article>
+        </section>
+
+        <section id="toolkit" class="panel-section">
+          <div class="two-column">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">CV Builder</p>
+                  <h3>Almanya formatina uygun ozet</h3>
+                </div>
+              </div>
+              <div id="cv-output" class="text-output"></div>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Anschreiben Builder</p>
+                  <h3>Meslege gore mektup taslagi</h3>
+                </div>
+              </div>
+              <div id="cover-letter-output" class="text-output"></div>
+            </article>
+          </div>
+
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Email Sablonlari</p>
+                <h3>Hazir yazisma taslaklari</h3>
+              </div>
+            </div>
+            <div id="email-templates" class="email-grid"></div>
+          </article>
+        </section>
+
+        <section id="family" class="panel-section">
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Family Mode</p>
+                <h3>Aile karar raporu</h3>
+              </div>
+            </div>
+            <div id="family-report" class="report-output"></div>
+          </article>
+        </section>
+
+        <section id="finance" class="panel-section">
+          <div class="two-column">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Finansal Plan</p>
+                  <h3>Sehir ve butce uygunlugu</h3>
+                </div>
+              </div>
+              <form id="finance-form" class="form-grid compact-form"></form>
+              <div id="finance-output" class="stack-list"></div>
+            </article>
+
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <p class="eyebrow">Scam / Risk Kontrolu</p>
+                  <h3>Guven sinyalleri</h3>
+                </div>
+              </div>
+              <form id="risk-form" class="form-grid compact-form"></form>
+              <div id="risk-output" class="stack-list"></div>
+            </article>
+          </div>
+
+          <article class="card sources-card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Kaynaklar</p>
+                <h3>Resmi ve guvenilir baslangic linkleri</h3>
+              </div>
+            </div>
+            <ul id="sources-list" class="sources-list"></ul>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

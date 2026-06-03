@@ -1,0 +1,172 @@
+[
+  {
+    "id": "0D7D7929-87D6-40C4-B7B5-EA1B9D8B1C00",
+    "name": "Netflix",
+    "category": "entertainment",
+    "suggestedAmount": 15.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Popular streaming plan",
+    "source": "quickAdd"
+  },
+  {
+    "id": "DF536B62-2616-43D7-B8A9-1E22F3785F89",
+    "name": "Spotify",
+    "category": "entertainment",
+    "suggestedAmount": 10.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Music streaming",
+    "source": "quickAdd"
+  },
+  {
+    "id": "0795935F-CFC8-43A9-8C9C-3176E9CFD09B",
+    "name": "Adobe Creative Cloud",
+    "category": "productivity",
+    "suggestedAmount": 69.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Design tools suite",
+    "source": "quickAdd"
+  },
+  {
+    "id": "59D27167-CB10-46EA-BCA9-1BEF633B1A74",
+    "name": "Amazon Prime",
+    "category": "lifestyle",
+    "suggestedAmount": 8.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Shopping + media bundle",
+    "source": "quickAdd"
+  },
+  {
+    "id": "087FA486-B0BC-4D28-A7B3-4E5CC00B3297",
+    "name": "Disney+",
+    "category": "entertainment",
+    "suggestedAmount": 8.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Streaming bundle template",
+    "source": "quickAdd"
+  },
+  {
+    "id": "EAE1BDAB-8BFB-4D29-BBD3-8AC5D9B3D3B1",
+    "name": "YouTube Premium",
+    "category": "entertainment",
+    "suggestedAmount": 12.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Ad-free video and music",
+    "source": "quickAdd"
+  },
+  {
+    "id": "4EB788D4-7080-4646-B0C4-5BFB0C5CF0AF",
+    "name": "ChatGPT Plus",
+    "category": "productivity",
+    "suggestedAmount": 20.00,
+    "currencyCode": "USD",
+    "billingCycle": "monthly",
+    "note": "AI assistant subscription",
+    "source": "quickAdd"
+  },
+  {
+    "id": "778B7427-7D1C-43DB-B83B-25DB3316A77F",
+    "name": "Notion",
+    "category": "productivity",
+    "suggestedAmount": 9.50,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Workspace and docs template",
+    "source": "quickAdd"
+  },
+  {
+    "id": "D24A9285-C055-4B74-8D8A-B0109D946504",
+    "name": "Canva Pro",
+    "category": "productivity",
+    "suggestedAmount": 11.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Design toolkit template",
+    "source": "quickAdd"
+  },
+  {
+    "id": "22B90784-ADF8-4173-82A7-AF11BB785AC6",
+    "name": "Dropbox Plus",
+    "category": "cloud",
+    "suggestedAmount": 11.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Cloud storage plan",
+    "source": "quickAdd"
+  },
+  {
+    "id": "15433736-7EF1-4290-A425-588BB59C4CFB",
+    "name": "Duolingo Super",
+    "category": "education",
+    "suggestedAmount": 7.33,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Language learning template",
+    "source": "quickAdd"
+  },
+  {
+    "id": "3F9F04BB-3D38-4CAB-8F41-56A767A84C66",
+    "name": "Microsoft 365",
+    "category": "productivity",
+    "suggestedAmount": 9.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Office suite subscription",
+    "source": "quickAdd"
+  },
+  {
+    "id": "7E688B72-D8B0-4289-AF72-028A7CDB345A",
+    "name": "PayGuard Pro",
+    "category": "finance",
+    "suggestedAmount": 19.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Track this app's own premium plan too",
+    "source": "quickAdd"
+  },
+  {
+    "id": "FAED886D-887A-43AB-A834-31A98C97284C",
+    "name": "Apple One",
+    "category": "cloud",
+    "suggestedAmount": 19.95,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Guided Apple quick add",
+    "source": "appStoreGuided"
+  },
+  {
+    "id": "675690E5-33F7-443C-A802-15EAB8131D27",
+    "name": "iCloud+",
+    "category": "cloud",
+    "suggestedAmount": 2.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Guided Apple quick add",
+    "source": "appStoreGuided"
+  },
+  {
+    "id": "DF2E13EC-9D1F-4F00-9CB1-6CE6FD22A5C8",
+    "name": "Apple Music",
+    "category": "entertainment",
+    "suggestedAmount": 10.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Guided Apple quick add",
+    "source": "appStoreGuided"
+  },
+  {
+    "id": "8E7E6E96-D34C-4AE3-B396-00CA18E51771",
+    "name": "Gym Membership",
+    "category": "fitness",
+    "suggestedAmount": 29.99,
+    "currencyCode": "EUR",
+    "billingCycle": "monthly",
+    "note": "Local gym template",
+    "source": "quickAdd"
+  }
+]
