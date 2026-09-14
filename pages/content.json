@@ -1,0 +1,309 @@
+{
+  "name": "PayGuard",
+  "color": "#6bdecf",
+  "secondary": "#8aaaff",
+  "icon": "app-icon.png",
+  "screen": "screen-en.png",
+  "copy": {
+    "tr": {
+      "tag": "ALDIKLARIN, ÖDEDİKLERİN, SIRADAKİLER",
+      "title": "Her ödeme.\nDaha fazla netlik.",
+      "intro": "Aboneliklerini, alışverişlerini, garanti ve iade sürelerini tek bir yerde takip et. PayGuard yaklaşan tarihleri görünür kılar.",
+      "features": [
+        [
+          "Tekrarlayan ödemeler",
+          "Abonelik kayıtlarını, tutarları ve yaklaşan yenileme tarihlerini düzenle."
+        ],
+        [
+          "Alışverişin sonrası",
+          "Fişlerini ve belgelerini sakla; iade pencerelerini ve garanti bitişlerini takip et."
+        ],
+        [
+          "Hatırlamaya yardımcı",
+          "İzin verdiğin yerel bildirimler ve kayıt özetleriyle yaklaşan işleri gör."
+        ]
+      ],
+      "offer": "Premium özellikler için uygulama içi satın alma seçeneklerini ve güncel fiyatı uygulamada görebilirsin.",
+      "steps": [
+        "Bir abonelik veya alışveriş kaydı ekle.",
+        "Belgelerini, tarihlerini ve hatırlatıcılarını düzenle.",
+        "Özeti aç; yaklaşan yenileme, iade ve garanti tarihlerini gör."
+      ]
+    },
+    "en": {
+      "tag": "WHAT YOU PAY. WHAT COMES NEXT.",
+      "title": "Every payment.\nA clearer picture.",
+      "intro": "Keep subscriptions, purchases, warranties and return windows in one place. PayGuard makes upcoming dates easier to see.",
+      "features": [
+        [
+          "Recurring payments",
+          "Organize subscription records, costs and upcoming renewal dates."
+        ],
+        [
+          "After the purchase",
+          "Keep receipts and documents with your records. Track return windows and warranty deadlines."
+        ],
+        [
+          "A useful reminder",
+          "See what is coming up with record summaries and optional local notifications."
+        ]
+      ],
+      "offer": "See available premium purchases and the current price inside the app.",
+      "steps": [
+        "Add a subscription or purchase record.",
+        "Organize its documents, dates and reminders.",
+        "Review upcoming renewals, returns and warranties."
+      ]
+    },
+    "de": {
+      "tag": "AUSGABEN UND TERMINE IM BLICK",
+      "title": "Jede Zahlung.\nEin klares Bild.",
+      "intro": "Abonnements, Einkäufe, Garantien und Rückgabefristen an einem Ort. PayGuard macht anstehende Termine übersichtlich.",
+      "features": [
+        [
+          "Wiederkehrende Zahlungen",
+          "Abos, Kosten und nächste Verlängerungstermine organisieren."
+        ],
+        [
+          "Nach dem Einkauf",
+          "Belege und Dokumente bei deinen Einträgen aufbewahren. Rückgabe- und Garantiefristen verfolgen."
+        ],
+        [
+          "Hilfreiche Erinnerungen",
+          "Mit Übersichten und optionalen lokalen Mitteilungen anstehende Aufgaben sehen."
+        ]
+      ],
+      "offer": "Verfügbare Premium-Käufe und den aktuellen Preis findest du direkt in der App.",
+      "steps": [
+        "Ein Abo oder einen Einkauf erfassen.",
+        "Dokumente, Termine und Erinnerungen ergänzen.",
+        "Verlängerungen, Rückgaben und Garantien im Blick behalten."
+      ]
+    }
+  },
+  "privacy": {
+    "en": [
+      [
+        "Local records",
+        "PayGuard stores subscriptions, purchases, warranties, return deadlines, notes, reminder preferences, attachments and manually added family names and roles locally. App use does not require account creation."
+      ],
+      [
+        "How records are used",
+        "Records support tracking, summaries, widgets and reminders. Receipts, screenshots, scans and PDFs may be analyzed on the device to suggest information for a record. Review imported suggestions yourself."
+      ],
+      [
+        "Permissions and sharing",
+        "Notifications are optional. Records and attachments remain local unless you choose to export or share them. PayGuard does not sell personal data or share it for advertising or marketing."
+      ],
+      [
+        "Delete your data",
+        "Delete individual entries or use Delete all local data in Settings to remove subscriptions, purchases, household members and pending reminders."
+      ],
+      [
+        "Apple purchases",
+        "Apple processes any in-app purchases. Payment card information is handled by Apple, not this website."
+      ],
+      [
+        "Age and updates",
+        "PayGuard is not directed to children under 13. Changes to this policy will be published on this page."
+      ]
+    ],
+    "tr": [
+      [
+        "Yerel kayıtlar",
+        "PayGuard abonelikleri, alışverişleri, garantileri, iade tarihlerini, notları, hatırlatıcı tercihlerini, ekleri ve elle eklediğin aile adları ile rollerini yerel olarak saklar. Uygulama kullanımı için hesap oluşturmak gerekmez."
+      ],
+      [
+        "Kayıtların kullanımı",
+        "Kayıtlar takip, özet, widget ve hatırlatıcı özelliklerini sağlar. Fiş, ekran görüntüsü, tarama ve PDF’ler kayıt bilgisi önermek için cihazda incelenebilir. İçe aktarılan önerileri kendin kontrol etmelisin."
+      ],
+      [
+        "İzin ve paylaşım",
+        "Bildirimler isteğe bağlıdır. Dışa aktarmayı veya paylaşmayı seçmediğin sürece kayıtlar ve ekler yerelde kalır. PayGuard kişisel verileri satmaz; reklam veya pazarlama amacıyla paylaşmaz."
+      ],
+      [
+        "Verilerini silme",
+        "Tek tek kayıtları silebilir veya Ayarlar’daki tüm yerel verileri sil seçeneğiyle abonelikleri, alışverişleri, hane üyelerini ve bekleyen hatırlatıcıları kaldırabilirsin."
+      ],
+      [
+        "Apple satın alımları",
+        "Uygulama içi satın alma işlemlerini Apple yürütür. Ödeme kartı bilgileri bu web sitesi tarafından değil, Apple tarafından işlenir."
+      ],
+      [
+        "Yaş ve güncellemeler",
+        "PayGuard 13 yaş altındaki çocuklara yönelik değildir. Politika değişiklikleri bu sayfada yayımlanır."
+      ]
+    ],
+    "de": [
+      [
+        "Lokale Einträge",
+        "PayGuard speichert Abos, Einkäufe, Garantien, Rückgabefristen, Notizen, Erinnerungen, Anhänge sowie manuell eingegebene Namen und Rollen der Familie lokal. Zur App-Nutzung ist kein Konto erforderlich."
+      ],
+      [
+        "Verwendung der Einträge",
+        "Die Daten ermöglichen Übersichten, Widgets, Erinnerungen und die Verwaltung deiner Einträge. Belege, Screenshots, Scans und PDFs können auf dem Gerät ausgewertet werden, um Angaben vorzuschlagen. Prüfe importierte Vorschläge selbst."
+      ],
+      [
+        "Berechtigungen und Teilen",
+        "Mitteilungen sind optional. Einträge und Anhänge bleiben lokal, sofern du sie nicht selbst exportierst oder teilst. PayGuard verkauft keine personenbezogenen Daten und teilt sie nicht für Werbung oder Marketing."
+      ],
+      [
+        "Daten löschen",
+        "Du kannst einzelne Einträge löschen oder in den Einstellungen alle lokalen Daten entfernen, einschließlich Abos, Einkäufen, Haushaltsmitgliedern und ausstehenden Erinnerungen."
+      ],
+      [
+        "Käufe über Apple",
+        "In-App-Käufe werden über Apple abgewickelt. Zahlungsdaten verarbeitet Apple, nicht diese Website."
+      ],
+      [
+        "Alter und Änderungen",
+        "PayGuard richtet sich nicht an Kinder unter 13. Änderungen dieser Erklärung werden auf dieser Seite veröffentlicht."
+      ]
+    ]
+  },
+  "repo": "PayGuard",
+  "terms": {
+    "tr": [
+      [
+        "İngilizce kullanım koşulları",
+        "Mevcut kullanım koşulları aşağıda özgün İngilizce metniyle sunulur."
+      ],
+      [
+        "Use of the App",
+        "PayGuard is provided as a tool to help users track subscriptions, purchases, warranties, return windows, reminders, and related information.\n\nYou are responsible for reviewing and confirming any information stored in the app, including imported or automatically suggested details."
+      ],
+      [
+        "No Guarantee",
+        "PayGuard is provided on an “as is” basis without warranties of any kind.\n\nWe do not guarantee that:\n\n• reminders will always be delivered on time\n• imported information will always be accurate\n• the app will always operate without interruption or error"
+      ],
+      [
+        "Purchases",
+        "PayGuard may offer a one-time in-app purchase to unlock premium functionality.\n\nAll purchases are processed by Apple through the App Store and are subject to Apple’s terms and policies."
+      ],
+      [
+        "Liability",
+        "To the maximum extent permitted by law, Ali Orkun Özkul is not liable for any indirect, incidental, special, consequential, or punitive damages arising from the use of PayGuard."
+      ],
+      [
+        "Changes",
+        "These Terms may be updated from time to time. Continued use of the app after changes means you accept the updated Terms."
+      ],
+      [
+        "Contact",
+        "For questions about these Terms, contact:\n\nali.ozkul@icloud.com"
+      ]
+    ],
+    "en": [
+      [
+        "English terms",
+        "The following is the existing English policy."
+      ],
+      [
+        "Use of the App",
+        "PayGuard is provided as a tool to help users track subscriptions, purchases, warranties, return windows, reminders, and related information.\n\nYou are responsible for reviewing and confirming any information stored in the app, including imported or automatically suggested details."
+      ],
+      [
+        "No Guarantee",
+        "PayGuard is provided on an “as is” basis without warranties of any kind.\n\nWe do not guarantee that:\n\n• reminders will always be delivered on time\n• imported information will always be accurate\n• the app will always operate without interruption or error"
+      ],
+      [
+        "Purchases",
+        "PayGuard may offer a one-time in-app purchase to unlock premium functionality.\n\nAll purchases are processed by Apple through the App Store and are subject to Apple’s terms and policies."
+      ],
+      [
+        "Liability",
+        "To the maximum extent permitted by law, Ali Orkun Özkul is not liable for any indirect, incidental, special, consequential, or punitive damages arising from the use of PayGuard."
+      ],
+      [
+        "Changes",
+        "These Terms may be updated from time to time. Continued use of the app after changes means you accept the updated Terms."
+      ],
+      [
+        "Contact",
+        "For questions about these Terms, contact:\n\nali.ozkul@icloud.com"
+      ]
+    ],
+    "de": [
+      [
+        "Nutzungsbedingungen auf Englisch",
+        "Die bestehenden Bedingungen stehen nachfolgend im englischen Original."
+      ],
+      [
+        "Use of the App",
+        "PayGuard is provided as a tool to help users track subscriptions, purchases, warranties, return windows, reminders, and related information.\n\nYou are responsible for reviewing and confirming any information stored in the app, including imported or automatically suggested details."
+      ],
+      [
+        "No Guarantee",
+        "PayGuard is provided on an “as is” basis without warranties of any kind.\n\nWe do not guarantee that:\n\n• reminders will always be delivered on time\n• imported information will always be accurate\n• the app will always operate without interruption or error"
+      ],
+      [
+        "Purchases",
+        "PayGuard may offer a one-time in-app purchase to unlock premium functionality.\n\nAll purchases are processed by Apple through the App Store and are subject to Apple’s terms and policies."
+      ],
+      [
+        "Liability",
+        "To the maximum extent permitted by law, Ali Orkun Özkul is not liable for any indirect, incidental, special, consequential, or punitive damages arising from the use of PayGuard."
+      ],
+      [
+        "Changes",
+        "These Terms may be updated from time to time. Continued use of the app after changes means you accept the updated Terms."
+      ],
+      [
+        "Contact",
+        "For questions about these Terms, contact:\n\nali.ozkul@icloud.com"
+      ]
+    ]
+  },
+  "aliases": [
+    [
+      "index-en.html",
+      "en",
+      "home"
+    ],
+    [
+      "index-de.html",
+      "de",
+      "home"
+    ],
+    [
+      "support.html",
+      "tr",
+      "support"
+    ],
+    [
+      "privacy.html",
+      "tr",
+      "privacy"
+    ],
+    [
+      "support-en.html",
+      "en",
+      "support"
+    ],
+    [
+      "privacy-en.html",
+      "en",
+      "privacy"
+    ],
+    [
+      "support-de.html",
+      "de",
+      "support"
+    ],
+    [
+      "privacy-de.html",
+      "de",
+      "privacy"
+    ],
+    [
+      "terms.html",
+      "en",
+      "terms"
+    ],
+    [
+      "index.html",
+      "tr",
+      "home"
+    ]
+  ]
+}
