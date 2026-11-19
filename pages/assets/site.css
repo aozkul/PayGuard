@@ -2,3 +2,4 @@
 
 /* Keep grid content inside narrow viewports, including long localized headings. */
 .hero>div{min-width:0}.word-art{width:min(300px,100%)}@media(max-width:650px){.hero{grid-template-columns:minmax(0,1fr)}.hero h1{overflow-wrap:anywhere}.visual-note{display:none}}
+.gallery{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 18px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}.gallery img{flex:0 0 auto;width:min(260px,62vw);height:auto;border-radius:26px;border:1px solid var(--line);scroll-snap-align:start;background:var(--panel);box-shadow:0 18px 40px #0007}.gallery:focus-visible{outline:2px solid var(--accent);outline-offset:6px;border-radius:18px}@media(max-width:650px){.gallery{gap:12px}.gallery img{width:68vw;border-radius:20px}}
