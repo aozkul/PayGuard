@@ -85,11 +85,23 @@
     "en": [
       [
         "Local records",
-        "PayGuard stores subscriptions, purchases, warranties, return deadlines, notes, reminder preferences, attachments and manually added family names and roles locally. App use does not require account creation."
+        "PayGuard stores subscriptions, purchases, warranties, return deadlines, notes, reminder preferences, attachments and manually added family names and roles on your device. App use does not require account creation."
       ],
       [
         "How records are used",
         "Records support tracking, summaries, widgets and reminders. Receipts, screenshots, scans and PDFs may be analyzed on the device to suggest information for a record. Review imported suggestions yourself."
+      ],
+      [
+        "iCloud sync (optional)",
+        "If you turn on iCloud sync, your records are stored in your own private iCloud database through Apple CloudKit so your devices stay in sync. The developer cannot access this data. Turn sync off in Settings at any time; records then stay only on the device."
+      ],
+      [
+        "Email inbox scan (optional)",
+        "If you connect a mailbox, PayGuard signs in directly to your mail provider over IMAP and reads billing emails on your device to suggest subscriptions. Your app password is stored in the iOS Keychain. Emails are not sent to the developer or any other server. You can disconnect the mailbox in Settings."
+      ],
+      [
+        "Bank statements and exchange rates",
+        "PDF or CSV bank statements you import are analyzed on the device to find recurring charges; PayGuard never asks for your bank login. To convert currencies, the app downloads public exchange rates from frankfurter.app; no personal data is included in that request."
       ],
       [
         "Permissions and sharing",
@@ -111,11 +123,23 @@
     "tr": [
       [
         "Yerel kayıtlar",
-        "PayGuard abonelikleri, alışverişleri, garantileri, iade tarihlerini, notları, hatırlatıcı tercihlerini, ekleri ve elle eklediğin aile adları ile rollerini yerel olarak saklar. Uygulama kullanımı için hesap oluşturmak gerekmez."
+        "PayGuard abonelikleri, alışverişleri, garantileri, iade tarihlerini, notları, hatırlatıcı tercihlerini, ekleri ve elle eklediğin aile adları ile rollerini cihazında saklar. Uygulama kullanımı için hesap oluşturmak gerekmez."
       ],
       [
         "Kayıtların kullanımı",
         "Kayıtlar takip, özet, widget ve hatırlatıcı özelliklerini sağlar. Fiş, ekran görüntüsü, tarama ve PDF’ler kayıt bilgisi önermek için cihazda incelenebilir. İçe aktarılan önerileri kendin kontrol etmelisin."
+      ],
+      [
+        "iCloud senkronizasyonu (isteğe bağlı)",
+        "iCloud senkronizasyonunu açarsan kayıtların cihazların arasında eşitlenmek için Apple CloudKit aracılığıyla kendi özel iCloud veritabanında saklanır. Geliştirici bu verilere erişemez. Senkronizasyonu Ayarlar’dan istediğin zaman kapatabilirsin; kayıtlar o zaman yalnızca cihazda kalır."
+      ],
+      [
+        "E-posta kutusu taraması (isteğe bağlı)",
+        "Bir e-posta hesabı bağlarsan PayGuard IMAP ile doğrudan e-posta sağlayıcına bağlanır ve abonelik önermek için fatura e-postalarını cihazında okur. Uygulama parolan iOS Anahtar Zinciri’nde saklanır. E-postalar geliştiriciye veya başka bir sunucuya gönderilmez. Hesabın bağlantısını Ayarlar’dan kaldırabilirsin."
+      ],
+      [
+        "Banka ekstreleri ve döviz kurları",
+        "İçe aktardığın PDF veya CSV banka ekstreleri tekrar eden ödemeleri bulmak için cihazda incelenir; PayGuard banka giriş bilgilerini asla istemez. Para birimi çevirmek için uygulama frankfurter.app adresinden herkese açık döviz kurlarını indirir; bu istekte kişisel veri yer almaz."
       ],
       [
         "İzin ve paylaşım",
@@ -137,11 +161,23 @@
     "de": [
       [
         "Lokale Einträge",
-        "PayGuard speichert Abos, Einkäufe, Garantien, Rückgabefristen, Notizen, Erinnerungen, Anhänge sowie manuell eingegebene Namen und Rollen der Familie lokal. Zur App-Nutzung ist kein Konto erforderlich."
+        "PayGuard speichert Abos, Einkäufe, Garantien, Rückgabefristen, Notizen, Erinnerungen, Anhänge und manuell hinzugefügte Familiennamen und Rollen auf deinem Gerät. Für die Nutzung ist kein Konto erforderlich."
       ],
       [
         "Verwendung der Einträge",
         "Die Daten ermöglichen Übersichten, Widgets, Erinnerungen und die Verwaltung deiner Einträge. Belege, Screenshots, Scans und PDFs können auf dem Gerät ausgewertet werden, um Angaben vorzuschlagen. Prüfe importierte Vorschläge selbst."
+      ],
+      [
+        "iCloud-Synchronisierung (optional)",
+        "Wenn du die iCloud-Synchronisierung aktivierst, werden deine Einträge über Apple CloudKit in deiner eigenen privaten iCloud-Datenbank gespeichert, damit deine Geräte synchron bleiben. Der Entwickler hat keinen Zugriff auf diese Daten. Du kannst die Synchronisierung jederzeit in den Einstellungen ausschalten; die Einträge bleiben dann nur auf dem Gerät."
+      ],
+      [
+        "Postfach-Scan (optional)",
+        "Wenn du ein Postfach verbindest, meldet sich PayGuard per IMAP direkt bei deinem E-Mail-Anbieter an und liest Rechnungs-E-Mails auf deinem Gerät, um Abos vorzuschlagen. Dein App-Passwort wird im iOS-Schlüsselbund gespeichert. E-Mails werden weder an den Entwickler noch an andere Server gesendet. Du kannst das Postfach in den Einstellungen trennen."
+      ],
+      [
+        "Kontoauszüge und Wechselkurse",
+        "Importierte PDF- oder CSV-Kontoauszüge werden auf dem Gerät analysiert, um wiederkehrende Abbuchungen zu finden; PayGuard fragt nie nach deinen Bank-Zugangsdaten. Für Währungsumrechnungen lädt die App öffentliche Wechselkurse von frankfurter.app; diese Anfrage enthält keine personenbezogenen Daten."
       ],
       [
         "Berechtigungen und Teilen",
